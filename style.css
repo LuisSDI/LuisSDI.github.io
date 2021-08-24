@@ -1,0 +1,189 @@
+body{
+    height: 100%;
+    /*width: 100%; */
+    margin: 0px;
+    padding-bottom: 0px;
+    font-family: 'Public Sans', sans-serif;
+    background: linear-gradient(90deg, #11998e, #38ef7d);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    border: 1px 1px 0px 1px solid transparent;
+    /* border-radius: 40px; */
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: black;
+    color: white;
+}
+
+h1{
+    align-self: center;
+}
+.cinema{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.cinema_buttons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.cinema_buttons > * {
+    border: 30px 0;
+    margin: 0 10px;
+    align-self: center;
+}
+
+.cinema_input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: center;
+
+}
+
+input{
+    margin: 10px 5px;
+    width: 180px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    box-sizing: border-box;
+    /* outline: none; */
+    /* border-color: white;
+    border-width: 2px; */
+    border: 2px solid black;
+
+}
+
+.content{
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        height: 100%;
+}
+
+button{
+    display:inline-block;
+    padding: 0.8em 1.2em;
+    border-radius:2em;
+    text-decoration:none;
+    font-size: 14px;
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+    }
+
+    button:hover{
+    background-color:#4095c6;
+    }
+
+    .cinema_total{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-right: 2px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .cinema_total > *{
+        
+        margin-right: 5px;
+    }
+
+
+    /*Streaming  */
+
+    .streaming {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-left: 20px;
+    }
+
+    .stream_buttoms
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: center;
+
+}
+
+.stream_buttoms > * {
+    border: 30px 0;
+    margin: 0 10px;
+    align-self: center;
+}
+
+.stream_user
+{
+    display: flex;
+    flex-direction: row;
+    gap: 0 20px;
+}
+
+.stream_cost
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.service_total{
+    display: flex;
+    flex-direction: row;
+    gap: 0 5px;
+}
+
+.service_title{
+    display: flex;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.stream_status{
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stream_status > *{
+    margin: 0;
+}
+
+.stream_final >*{
+    margin: 0;
+}
+
+.result{
+    display: flex;
+    color: white;
+    background-color: black;
+    flex-grow: 1;
+    height: 256px;
+    font-size: larger;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
